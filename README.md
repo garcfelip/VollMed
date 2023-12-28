@@ -1,20 +1,36 @@
-# VollMed-API
-O projeto **VollMed-API** é uma solução robusta e escalável que desempenhará um papel fundamental no ecossistema VollMed. Com foco no gerenciamento eficiente de dados, a API abrangerá tanto o aplicativo móvel quanto a aplicação web. Aqui estão os detalhes essenciais:
+<h1 align="center">VollMed-API</h1>
 
-1. **API RESTful**:
-   - A VollMed-API seguirá os princípios REST, oferecendo endpoints para operações de **CRUD** (Create, Read, Update e Delete).
-   - Ela será o ponto central para interações entre o aplicativo móvel, a aplicação web e o banco de dados.
+## 💻 Sobre o Projeto
 
-2. **Tecnologias Utilizadas**:
-   - Desenvolveremos a API em **Java 17**, aproveitando a robustez e a maturidade dessa linguagem.
-   - O **ecossistema Spring Framework** será nosso aliado, proporcionando agilidade no desenvolvimento e recursos como o Spring Boot, Spring Data JPA e Spring Security.
+**VollMed-API** - é API RESTful responsável pelo CRUD do ecossistema VollMed. 
 
-3. **Funcionalidades**:
+ ### ⚙️ API RESTful
+   - A VollMed-API segue os princípios REST, oferecendo endpoints para operações de **CRUD** (Create, Read, Update e Delete).
+   - O projeto VollMed-API é o ponto central para interações entre o aplicativo móvel, a aplicação web e o banco de dados.
+
+### 🛠️ Funcionalidades
    - **Consultas**: A API permitirá agendar, visualizar e atualizar consultas médicas.
    - **Pacientes e Médicos**: Gerenciaremos informações detalhadas sobre pacientes e médicos, incluindo histórico, perfis e especializações.
    - **Segurança**: Implementaremos autenticação e autorização para proteger os dados sensíveis.
 
-4. **Integração com o Ecossistema VollMed**:
-   - A API será o elo entre o aplicativo móvel (desenvolvido em React Native) e a aplicação web (desenvolvida em React).
-   - Garantiremos a consistência dos dados e a comunicação eficiente entre os componentes.
+💡 O Projeto foi desenvolvido com base na [Formação Java e Spring Boot](https://www.alura.com.br/formacao-spring-boot-3) da plataforma de ensino [Alura](https://www.alura.com.br).
 
+### ☕ Tecnologias 
+   - [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+   - [Spring Framework](https://start.spring.io/)
+   - [MySQL](https://www.mysql.com/)
+   - [Intellij](https://www.jetbrains.com/pt-br/idea/)
+
+<!--
+## 🚀 Como executar o projeto
+### Pré-requsitos
+   - Banco de Dados da sua preferência, no meu caso, utilizei o MySQL com a dependência Flyway Migration.
+   - Java 17 
+	- Git
+
+### Rodando a API
+<code>
+   # Clone este repositório
+   $ git clone https://github.com/garcfelip/VollMed-API.git 
+</code>
+-->
