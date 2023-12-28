@@ -1,6 +1,8 @@
 <h1 align="center">VollMed-API</h1>
 
 ## 💻 Sobre o Projeto
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://github.com/garcfelip/VollMed-API/blob/main/capa.jpg?raw=true#vitrinedev)
 
 **VollMed-API** - é API RESTful responsável pelo CRUD do ecossistema VollMed. 
 
