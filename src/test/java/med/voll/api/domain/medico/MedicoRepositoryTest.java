@@ -26,7 +26,6 @@ class MedicoRepositoryTest {
 
     @Autowired
     private MedicoRepository medicoRepository;
-
     @Autowired
     private TestEntityManager em;
 
@@ -37,6 +36,7 @@ class MedicoRepositoryTest {
         var proximaSegundaAs10 = LocalDate.now()
                 .with(TemporalAdjusters.next(DayOfWeek.MONDAY))
                 .atTime(10, 0);
+        // Informações que precisam estar préviamente cadastradas no banco de testes
         var medico = cadastrarMedico("Medico", "medico@voll.med", "123456", Especialidade.CARDIOLOGIA);
         var paciente = cadastrarPaciente("Paciente", "paciente@email.com", "00000000000");
         cadastrarConsulta(medico, paciente, proximaSegundaAs10);
@@ -62,6 +62,7 @@ class MedicoRepositoryTest {
 
         //then ou assert
         assertThat(medicoLivre).isEqualTo(medico);
+
     }
 
     private void cadastrarConsulta(Medico medico, Paciente paciente, LocalDateTime data) {

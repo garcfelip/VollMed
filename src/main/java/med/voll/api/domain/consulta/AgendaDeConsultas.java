@@ -20,10 +20,8 @@ public class AgendaDeConsultas {
     private MedicoRepository medicoRepository;
     @Autowired
     private PacienteRepository  pacienteRepository;
-
     @Autowired
     private List<ValidadorAgendamentoDeConsulta> validadores;
-
     @Autowired
     private List<ValidadorCancelamentoDeConsulta> validadoresCancelamento;
 
