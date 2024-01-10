@@ -21,7 +21,6 @@ public class ConsultaController {
     @Transactional
     public ResponseEntity agendar(@RequestBody @Valid DadosAgendamentoConsulta dados) {
        var dto = agenda.agendar(dados);
-
         return ResponseEntity.ok(dto);
     }
 
@@ -29,7 +28,6 @@ public class ConsultaController {
     @Transactional
     public ResponseEntity cancelar(@RequestBody @Valid DadosCancelamentoConsulta dados) {
         agenda.cancelar(dados);
-
         return ResponseEntity.noContent().build();
     }
 }
